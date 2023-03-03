@@ -3841,6 +3841,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 11c9068f-2dfb-4bdd-8a2c-389d5a9e3605)
   )
+  (text "AUX2 = D8" (at 215.646 100.838 0)
+    (effects (font (size 1 1)) (justify left bottom))
+    (uuid 179e9ce4-b3b7-439d-aae2-67f92cf0b3d0)
+  )
   (text "DECOUPLING CAPACITOR" (at 132.08 66.04 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 4ecf71eb-1193-41b8-9d06-fc2e048e617c)
@@ -5439,7 +5443,7 @@
     (in_bom yes) (on_board yes)
     (uuid b2f9dbed-d299-494a-bfb3-262becf62c80)
     (property "Reference" "C14" (id 0) (at 170.815 26.67 90))
-    (property "Value" "0.1uF" (id 1) (at 170.815 28.575 90))
+    (property "Value" "DNP" (id 1) (at 170.815 28.575 90))
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 170.815 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6183,7 +6187,7 @@
       (reference "C13") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/b2f9dbed-d299-494a-bfb3-262becf62c80"
-      (reference "C14") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C14") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/d46f6994-a34c-434d-bc59-13723b0819f7"
       (reference "D1") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SMB_Handsoldering")
