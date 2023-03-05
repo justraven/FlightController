@@ -5,8 +5,105 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
   )
 
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 25.4 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 07a467ef-36cb-43d2-8133-d7ccdc2bc7ab)
+    (property "Reference" "H2" (id 0) (at 27.94 100.3299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 27.94 102.8699 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" (id 2) (at 25.4 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 25.4 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 25.4 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid bcaa5d7e-6477-46e6-a55a-9c1607187761)
+    (property "Reference" "H1" (id 0) (at 27.94 95.2499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 27.94 97.7899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" (id 2) (at 25.4 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 25.4 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 25.4 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid e83e2276-3620-4e72-882c-c1f738b4fc1c)
+    (property "Reference" "H3" (id 0) (at 27.94 105.4099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 27.94 107.9499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" (id 2) (at 25.4 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 25.4 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 25.4 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid ef19ce1f-f846-4435-a6a3-060dee9a7f16)
+    (property "Reference" "H4" (id 0) (at 27.94 110.4899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 27.94 113.0299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" (id 2) (at 25.4 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 25.4 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
 
   (sheet (at 101.6 21.59) (size 81.28 63.5)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -183,6 +280,18 @@
     (path "/4042011a-daad-48c4-b9b2-94f28cc55864/7c7f71b2-b6cd-4c78-9e13-22102405d745"
       (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/62117a48-6a68-4b65-9406-1054cd65088c"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/bf1df487-78d6-4d03-a06e-8121ab2015c7"
+      (reference "#PWR0106") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/7178bed0-c333-409b-b91f-b0897fd0cf7a"
+      (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/4aa5ee2f-d882-43cb-9861-4d3d4c1e133d"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/a3242deb-bbc4-4724-93b7-6420874c125c"
       (reference "C1") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
@@ -240,6 +349,18 @@
     (path "/4042011a-daad-48c4-b9b2-94f28cc55864/8832c07c-7b3a-4d62-8319-73ecdb3fec5c"
       (reference "D5") (unit 1) (value "LED_Small") (footprint "LED_THT:LED_D3.0mm")
     )
+    (path "/bcaa5d7e-6477-46e6-a55a-9c1607187761"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad")
+    )
+    (path "/07a467ef-36cb-43d2-8133-d7ccdc2bc7ab"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad")
+    )
+    (path "/e83e2276-3620-4e72-882c-c1f738b4fc1c"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad")
+    )
+    (path "/ef19ce1f-f846-4435-a6a3-060dee9a7f16"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad")
+    )
     (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/60141891-fb84-4071-923c-8f3e8173a409"
       (reference "J1") (unit 1) (value "AVR-ISP-10") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
     )
@@ -273,6 +394,12 @@
     (path "/4042011a-daad-48c4-b9b2-94f28cc55864/543c1d04-ff30-4fd5-aef5-b8affe9769d7"
       (reference "J11") (unit 1) (value "AVR-ISP-10") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
     )
+    (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/f9388cf5-3d7f-43fa-a091-902c5417e483"
+      (reference "J12") (unit 1) (value "TRANSMITTER_1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/a1ee97e6-25e9-4303-b5fa-7be71cac470f"
+      (reference "J13") (unit 1) (value "TRANSMITTER_2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
     (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/181d9fda-7bd1-4008-9c25-b124fd045ddf"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
@@ -299,6 +426,12 @@
     )
     (path "/4042011a-daad-48c4-b9b2-94f28cc55864/63f7cc6c-e71a-428a-b3b4-d84f9f1467a2"
       (reference "R9") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/4042011a-daad-48c4-b9b2-94f28cc55864/7733ae9d-4ccc-46ad-8db2-a186fd06a36e"
+      (reference "R10") (unit 1) (value "1K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/4042011a-daad-48c4-b9b2-94f28cc55864/cd161fe3-e178-468e-bc90-27ed2cd78ead"
+      (reference "R11") (unit 1) (value "1K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/f54623c1-588d-4bbf-95e6-b168dc7864e8/8645192d-d983-45b1-9b85-d3016a875a0d"
       (reference "SW1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS")
